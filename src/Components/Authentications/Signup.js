@@ -6,6 +6,7 @@ import { VStack } from "@chakra-ui/layout";
 import { useToast } from "@chakra-ui/toast";
 import axios from "axios";
 import { useNavigate } from "react-router-dom";
+import utils from '../../config.js'
 
 const Signup = () => {
 
@@ -97,7 +98,7 @@ const submitHandler = async () => {
         },
       };
       const { data } = await axios.post(
-        "/api/user",
+        `${utils.BaseUrl}/api/user`,
         {
           name,
           email,
