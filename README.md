@@ -1,4 +1,4 @@
-# JetChat🚀
+# JetChat 🚀
 
 # Real-Time Chat Application (MERN Stack & Socket.io)
 
