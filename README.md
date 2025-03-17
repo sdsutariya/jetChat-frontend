@@ -1,3 +1,5 @@
+# JetChat🚀
+
 # Real-Time Chat Application (MERN Stack & Socket.io)
 
 A real-time chat application built with **MERN Stack** (MongoDB, Express.js, React.js, Node.js) and **Socket.io** for instant messaging.
